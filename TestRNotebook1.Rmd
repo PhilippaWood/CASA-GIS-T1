@@ -1,5 +1,5 @@
 ---
-heading: My test R Notebook - Philippa Wood 24/10/18 add some more changes and some more changes
+heading: My test R Notebook - Philippa Wood 24/10/18 add some more changes and some more changes and some more changes
 
 title: "R Notebook"
 output: html_notebook
