@@ -2,14 +2,22 @@
 title: "AssignmentPart1"
 author: "ucesday"
 date: "27 October 2018"
-output: html_document
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Assignment Part 1
+## ArcMap Map
+
+image: ![ArcMap Isle of Wight](GitHub/CASA-GIS-T1/AssignmentPart1Images/Arc_MTW_IOW1,png)
+
+
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
