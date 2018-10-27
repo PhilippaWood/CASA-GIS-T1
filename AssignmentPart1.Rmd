@@ -3,9 +3,9 @@ title: "AssignmentPart1"
 author: "ucesday"
 date: "27 October 2018"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +15,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Assignment Part 1
 ## ArcMap Map
 
-image: ![ArcMap Isle of Wight](GitHub/CASA-GIS-T1/AssignmentPart1Images/Arc_MTW_IOW1,png)
+
+
+
+image: ! [ArcMap](Arc_MTW_IOW1.png)
+
+
 
 
 
