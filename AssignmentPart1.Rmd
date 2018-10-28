@@ -9,8 +9,20 @@ output:
 ---
 # Assignment Part 1
 
+
+## Introduction
+
+Intro about GIS 
+
+The purpose of this work is to have created two maps using different GIS and graphics software programs.  One using a GUI software (here ArcGIS has been used), and a programming based software (here R based map has been created using Rstudio), and to provide a critique of the methods used.
+
+(Maybe a review of the task is a waste of word count, but some intro useufl, maybe more bullet point like)
+
+
+
 ## Libraries 
-```{r }
+```{r, echo=FALSE}
+#libraries set to hidden for now - remember to remove heading if not shown
 library(knitr)
 library(colorspace)
 library(ggplot2)
@@ -21,10 +33,9 @@ library(png)
 ## ArcMap Map
 
 
-```{r out.width = "25%"}  
-
+```{r, echo=FALSE}  
 img1_path <- "C:/Users/pippa/OneDrive/Documents/GitHub/CASA-GIS-T1/Arc_MTW_IOW1.png"
-
+##sort out sizing some other time. 
 include_graphics(img1_path)
 ```
 
