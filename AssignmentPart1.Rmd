@@ -3,9 +3,9 @@ title: "AssignmentPart1"
 author: "ucesday"
 date: "27 October 2018"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 ---
 # Assignment Part 1
 
@@ -36,6 +36,7 @@ library(png)
 ```{r, echo=FALSE}  
 img1_path <- "C:/Users/pippa/OneDrive/Documents/GitHub/CASA-GIS-T1/Arc_MTW_IOW1.png"
 ##sort out sizing some other time. 
+##if knitting to html the graphics are going to have to be smaller maybe with retina setting
 include_graphics(img1_path)
 ```
 
