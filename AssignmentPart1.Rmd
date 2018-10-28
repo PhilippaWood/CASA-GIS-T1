@@ -3,28 +3,44 @@ title: "AssignmentPart1"
 author: "ucesday"
 date: "27 October 2018"
 output:
-  html_document: default
-  pdf_document: default
   word_document: default
+  pdf_document: default
+  html_document: default
 ---
+# Assignment Part 1
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+## Libraries 
+```{r }
+library(knitr)
+library(colorspace)
+library(ggplot2)
+library(png)
 ```
 
-## Assignment Part 1
+
 ## ArcMap Map
 
 
+```{r out.width = "25%"}  
+
+img1_path <- "C:/Users/pippa/OneDrive/Documents/GitHub/CASA-GIS-T1/Arc_MTW_IOW1.png"
+
+include_graphics(img1_path)
+```
+
+```{r 2}
+
+##{r, fig.width=2}out.width = "25%"
+## https://www.zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/
+```
 
 
-image: ! [ArcMap](Arc_MTW_IOW1.png)
+
+This is a map using ArcGIS.
+
+Data from: <>,<>,<>. Insert hyperlinks... how to have an alt text appear to hyperlink?
 
 
-
-
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
