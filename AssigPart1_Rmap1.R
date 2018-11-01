@@ -16,3 +16,7 @@ library(ggplot2)
 
 install.packages("scatterpie")
 install.packages("dplyr")
+
+library(scatterpie)
+library(dplyr)
+
