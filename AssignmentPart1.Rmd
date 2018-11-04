@@ -16,7 +16,7 @@ Intro about GIS
 
 The purpose of this work is to have created two maps using different GIS and graphics software programs.  One using a GUI software (here ArcGIS has been used), and a programming based software (here R based map has been created using Rstudio), and to provide a critique of the methods used.
 
-(Maybe a review of the task is a waste of word count, but some intro useufl, maybe more bullet point like)
+(Maybe a review of the task is a waste of word count, but some intro useful, maybe more bullet point like)
 
 
 
@@ -52,6 +52,13 @@ include_graphics(img1_path)
 This is a map using ArcGIS.
 
 Data from: <>,<>,<>. Insert hyperlinks... how to have an alt text appear to hyperlink?
+
+##R Map 
+
+```{r, echo=FALSE}  
+img2_path <- "C:/Users/pippa/OneDrive/Documents/GitHub/CASA-GIS-T1/RplotIOW.png"
+include_graphics(img2_path)
+```
 
 
 
